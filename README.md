@@ -22,11 +22,7 @@ brew install ffmpeg
 
 ## 📁 Directory Structure
 
-All sound files must be placed in:
-
-```
-/home/seva/projects/python/sounds/sounds
-```
+You need to add path to your directory in main.py
 
 Each sound must be in `.mp3` format.
 
@@ -70,7 +66,3 @@ Command ffplay is not available, did you install ffmpeg?
 ```
 
 Please make sure `ffplay` is installed and accessible in your system's PATH.
-
-## 🛠 Customization
-
-You can modify the `sounds_dir` variable at the top of the script to change the folder path where your `.mp3` files are stored.
