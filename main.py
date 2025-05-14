@@ -6,7 +6,7 @@ import shutil
 
 
 
-sounds_dir = "/home/seva/projects/python/sounds/sounds"
+sounds_dir = "YOUR_DIRECTORY_FOR_SOUNDS"
 args = sys.argv
 
 def play_sound(name):
